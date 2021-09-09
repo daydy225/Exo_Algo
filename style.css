@@ -20,6 +20,11 @@ a {
   text-decoration: none;
   color: red;
 }
+p.link {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 500;
+}
 a:active {
   color: blue;
 }

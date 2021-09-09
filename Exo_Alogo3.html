@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Exo Algo III</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Exo d'Algo III</h3>
+      <!-- <span
+          >Exo d'Algo III a la <a href="Exo_Alogo3.html">page suivante</a></span
+        > -->
+      <h4>Exercice 3.2</h4>
+      <p>
+        <b>Resultat</b> <br />
+        <br />
+        <b>Variables</b><br />
+        A,B : Reel <br />
+        <br />
+        <b>Debut</b> <br />
+        Ecrire('Entrez un nombre svp: ')<br />
+        Lire A <br />
+        Entrez('Entrez un second nombre svp: ') <br />
+        Lire B <br />
+        <b>Si</b>> ((A*B) < 0) <b>Alors</b> <br />
+        Ecrire('Le produit de, A,'et', B, 'est negatif') <br />
+        <b>Sinon </b> <br />
+        Ecrire('Le produit de, A,'et', B, 'est positif') <br />
+        <b>Finsi</b> <br />
+        <b>Fin</b>
+      </p>
+      <hr />
+      <h4>Exercice 3.3</h4>
+      <p>
+        <b>Resultat</b><br /><br />
+        <b>Variales</b> <br />
+        n1, n2, n3 : Chaine de caracteres <br /><br />
+        <b>Debut</b> <br />
+        Ecrire 'Entrez 3 noms: '<br />
+        Lire (n1, n2, n3)<br />
+        <b>Si</b> (n1 < n2 et n2 < n3 ) <b>Alors</b><br />
+        Ecrire (n1, n2, n3, 'sont ranges dans l''ordre') <br />
+        <b>Sinon</b> <br />
+        Ecrire 'les noms ne sont pas ranges dans l''ordre' <br />
+        <b>Finsi</b> <br />
+        <b>Fin</b>
+      </p>
+      <hr />
+      <h4>Exercice 3.4</h4>
+      <p>
+        <b>Resultat</b><br /><br />
+        <b>Variables</b> <br />
+        n : Reel <br /><br />
+        <b>Debut</b><br />
+        Ecrire('Entrez un nombre svp: ') <br />
+        Lire n <br />
+        <b>Si</b> (n < 0) <b>Alors</b> <br />
+        Ecrire(n, 'est un nombre negatif') <br />
+        <b>Sinon</b> <br />
+        <b>Si (n = 0)</b> <b>Alors</b><br />
+        Ecrire(n, 'est egale a zero')<br />
+        <b>Sinon</b> <br />
+        Ecrire(n, 'est positif') <br />
+        <b>Finsi</b>
+        <b>Finsi</b> <br />
+        <b>Fin</b>
+      </p>
+      <hr />
+      <h4>Exercice 3.5</h4>
+      <p>
+        <b>Resultat</b> <br /><br />
+        <b>Variables</b><br />
+        A, B: Reel <br /><br />
+        Ecrire('Entrez un nombre svp: ')<br />
+        Lire A <br />
+        Entrez('Entrez un second nombre svp: ') <br />
+        Lire B <br />
+        <b>Si</b> ((A*B) < 0) <b>Alors</b><br />
+        Ecrire('Le produit de, A,'et', B, 'est negatif') <br />
+        <b>Sinon </b> <br />
+        <b>Si</b> ((A*B) = 0) <b>Alors</b><br />
+        Ecrire('Le produit de, A,'et', B, 'est nul') <br />
+        <b>Sinon</b> <br />
+        Ecrire('Le produit de, A,'et', B, 'est positif')
+        <br />
+        <b>Finsi</b>
+        <b>Finsi</b> <br />
+        <b>Fin</b>
+      </p>
+      <hr />
+      <h4>Exercice 3.6</h4>
+      <p>
+        <b>Resultat</b> <br /><br />
+        <b>Variables</b>
+        nom, prenom, email, motdepasse: Chaines de caracteres<br />
+        <br />
+        <b>Debut</b><br />
+        Ecrire 'Veuillez entrer votre nom: '<br />
+        Lire nom<br />
+        Ecrire 'Veuillez entrer votre prenom: '<br />
+        Lire prenom<br />
+        Ecrire 'Veuillez entrer vore email: '<br />
+        Lire email
+        <b>Si</b> (email <> "" & "@mail.com") <b>Alors</b><br />
+        Ecrire "Erreur de l''email" <br />
+        <b>Sinon</b> <br />
+        Ecrire 'Veuillez entrer le motdepasse: ' <br />
+        Lire motdepasse
+        <b>Si</b> (longeur(motdepasse) > 8) <b>Alors</b> <br />` Ecrire 'Votre
+        mot de passe doit comporter 8 caracteres' <br />
+        <b>Sinon</b> <br />
+        Ecrire 'Vos information on ete bien enregistrer' <br />
+        <b>Finsi</b> <br />
+        <b>Finsi</b> <br />
+        <b>Fin</b> <br />
+      </p>
+      <hr />
+      <h4>Exercice 3.7</h4>
+      <p><b>Resultat</b></p>
+      <p>
+        <b>Variables</b> <br />
+        A, B : Reel <br /><br />
+        <b>Debut</b> <br />
+        <b>Si</b>(A < 0 ou B < 0)<br />
+        Ecrire('le produit de' A,'et', B,'est negatif') <b>Sinon</b> <br />
+        <b>Si</b> (A = 0 ou B = 0) <br />
+        Ecrire('le produit de' A,'et', B,'est nul') <b>Sinon</b> <br />
+        Ecrire('le produit de' A,'et', B,'est positif')
+        <br />
+        <b>Finsi</b><br />
+        <b>Fin</b>
+      </p>
+      <hr />
+    </div>
+  </body>
+</html>
